@@ -13,18 +13,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": "src",
-    "paths": {
-      "@controllers/*": ["controllers/*"],
-      "@middleware/*": ["middleware/*"],
-      "@models/*": ["shared/models/*"],
-      "@services/*": ["shared/services/*"],
-      "@helpers/*": ["shared/helpers/*"],
-      "@contracts/*": ["shared/contracts/*"],
-      "@config/*": ["config/*"],
-      "@shared/*": ["shared/*"]
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules"]
